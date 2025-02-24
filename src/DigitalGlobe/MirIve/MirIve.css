@@ -1,0 +1,32 @@
+.mir-ive-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 32px;
+  background-color: rgba(246, 249, 255, 0.5);
+  border-radius: 40px;
+  width: fit-content;
+  transition: all 0.2s ease-in-out;
+}
+
+.mir-ive-container:hover {
+  background-color: rgba(246, 249, 255, 0.7);
+  transform: scale(1.02);
+}
+
+.mir-ive-text {
+  font-family: 'Roboto Flex', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  line-height: 120%;
+  cursor: default;
+  user-select: none;
+}
+
+@font-face {
+  font-family: 'Roboto Flex';
+  src: url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@700&display=swap');
+}
+
