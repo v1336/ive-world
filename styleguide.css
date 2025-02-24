@@ -1,0 +1,18 @@
+:root {
+  --button: 0px 10px 24px 0px rgba(83, 128, 234, 0.25);
+  --card: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+  --dark-theme: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+  --darkthemebackgroundblock: rgba(0, 38, 95, 0.5);
+  --darkthemebackgroundfirstblock: rgba(0, 25, 62, 1);
+  --darkthemebackgroundprimary: rgba(10, 18, 28, 1);
+  --darkthemegraphelement: rgba(61, 149, 255, 0.3);
+  --neo-inside: -5px -5px 10px 0px rgba(250, 251, 255, 1), 5px 5px 10px 0px
+    rgba(22, 27, 29, 0.23);
+  --shadow: 0px 8px 16px 0px rgba(168, 159, 220, 0.25);
+  --textprimary: rgba(17, 17, 17, 1);
+  --white-theme: 0px 10px 34px 0px rgba(83, 128, 234, 0.5);
+  --whitethemebackgroundcard: rgba(246, 249, 255, 1);
+  --whitethemebackgroundiveworld: rgba(246, 249, 255, 0.5);
+  --whitethemebackgroundprimary: rgba(246, 249, 255, 1);
+  --whitethemebuttondefault: rgba(15, 54, 110, 1);
+}
