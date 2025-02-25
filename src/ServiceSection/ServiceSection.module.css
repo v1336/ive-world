@@ -1,4 +1,4 @@
-.service-section {
+.serviceSection {
   display: flex;
   max-width: 670px;
   height: auto;
@@ -11,7 +11,7 @@
   align-items: center;
 }
 
-.service-content {
+.serviceContent {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -19,14 +19,14 @@
   max-width: 295px;
 }
 
-.service-header {
+.serviceHeader {
   display: flex;
   flex-direction: column;
   gap: 16px;
   text-align: center;
 }
 
-.service-title {
+.serviceTitle {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -35,7 +35,7 @@
   color: #000f7f;
 }
 
-.service-description {
+.serviceDescription {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -44,14 +44,14 @@
   color: #898989;
 }
 
-.download-section {
+.downloadSection {
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
 }
 
-.download-title {
+.downloadTitle {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -62,7 +62,7 @@
   width: 100%;
 }
 
-.download-button {
+.downloadButton {
   width: 100%;
   max-width: 295px;
   padding: 0;
@@ -72,30 +72,30 @@
   transition: transform 0.2s ease;
 }
 
-.download-button:hover {
+.downloadButton:hover {
   transform: scale(1.02);
 }
 
-.download-button:active {
+.downloadButton:active {
   transform: scale(0.98);
 }
 
-.download-button img {
+.downloadButton img {
   width: 100%;
   height: auto;
   display: block;
 }
 
 @media (max-width: 320px) {
-  .service-section {
+  .serviceSection {
     padding: 10px;
   }
 
-  .service-content {
+  .serviceContent {
     max-width: 100%;
   }
 
-  .download-button {
+  .downloadButton {
     max-width: 100%;
   }
 }
