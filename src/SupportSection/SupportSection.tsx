@@ -1,29 +1,25 @@
-import React from 'react';
-import './SupportSection.css';
+import React from "react";
+import styles from "./SupportSection.module.css";
 
-interface SupportSectionProps {
-  style?: React.CSSProperties;
-}
-
-const SupportSection: React.FC<SupportSectionProps> = ({ style }) => {
+const SupportSection: React.FC = () => {
   return (
-    <div className="support-section" style={style}>
-      <h2 className="support-title">Техподдержка</h2>
+    <div className={styles.supportSection}>
+      <h2 className={styles.supportTitle}>Техподдержка</h2>
       <p className="support-subtitle">Единый номер технической поддержки:</p>
       <p className="support-phone">+7 (800) 222 38 27</p>
-      
-      <button 
+
+      <button
         className="support-button"
-        onClick={() => window.location.href = 'tel:+78002223827'}
+        onClick={() => (window.location.href = "tel:+78002223827")}
       >
         Позвонить
       </button>
 
       <p className="support-email">E-mail: ws@v-1336.ru</p>
 
-      <button 
+      <button
         className="support-button"
-        onClick={() => window.location.href = 'mailto:ws@v-1336.ru'}
+        onClick={() => (window.location.href = "mailto:ws@v-1336.ru")}
       >
         Написать
       </button>
@@ -31,14 +27,4 @@ const SupportSection: React.FC<SupportSectionProps> = ({ style }) => {
   );
 };
 
-SupportSection.defaultProps = {
-  style: {
-    flexGrow: 1,
-    width: '100%',
-    maxWidth: '295px',
-    height: 'auto',
-  }
-};
-
 export default SupportSection;
-

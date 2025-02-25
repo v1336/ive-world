@@ -1,24 +1,19 @@
-import React from 'react';
-import styles from './MeasurementSection.module.css';
+import React from "react";
+import styles from "./MeasurementSection.module.css";
 
-interface MeasurementSectionProps {
-  style?: React.CSSProperties;
-}
-
-const MeasurementSection: React.FC<MeasurementSectionProps> = ({ style }) => {
+const MeasurementSection: React.FC = () => {
   return (
-    <div className={styles.container} style={style}>
+    <div className={styles.container}>
       <div className={styles.contentWrapper}>
-        <h2 className={styles.title}>
-          Проверка средств измерений
-        </h2>
+        <h2 className={styles.title}>Проверка средств измерений</h2>
         <p className={styles.description}>
-          Метрологическая служба нашей компании осуществляет поверку различных средств измерений, обеспечивая высокую точность и надёжность.
+          Метрологическая служба нашей компании осуществляет поверку различных
+          средств измерений, обеспечивая высокую точность и надёжность.
         </p>
       </div>
-      <button 
+      <button
         className={styles.button}
-        onClick={() => console.log('More info clicked')}
+        onClick={() => console.log("More info clicked")}
       >
         Подробная информация
       </button>
@@ -27,4 +22,3 @@ const MeasurementSection: React.FC<MeasurementSectionProps> = ({ style }) => {
 };
 
 export default MeasurementSection;
-

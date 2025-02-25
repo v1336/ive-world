@@ -1,4 +1,4 @@
-.support-section {
+.supportSection {
   display: flex;
   max-width: 670px;
   height: auto;
@@ -9,7 +9,7 @@
   background-color: inherit;
 }
 
-.support-title {
+.supportTitle {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 24px;
@@ -18,7 +18,7 @@
   margin: 0 0 20px 0;
 }
 
-.support-subtitle {
+.supportSubtitle {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -28,7 +28,7 @@
   margin: 0 0 10px 0;
 }
 
-.support-phone {
+.supportPhone {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -37,7 +37,7 @@
   margin: 0 0 20px 0;
 }
 
-.support-email {
+.supportEmail {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -46,7 +46,7 @@
   margin: 10px 0;
 }
 
-.support-button {
+.supportButton {
   width: 162px;
   height: 44px;
   background-color: #0F366E;
@@ -62,16 +62,16 @@
   transition: background-color 0.2s ease;
 }
 
-.support-button:hover {
+.supportButton:hover {
   background-color: #1a4b94;
 }
 
-.support-button:active {
+.supportButton:active {
   background-color: #0a2854;
 }
 
 @media (max-width: 320px) {
-  .support-section {
+  .supportSection {
     min-width: 280px;
   }
 }

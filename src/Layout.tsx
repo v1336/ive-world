@@ -5,21 +5,11 @@ import OnlineServiceSection from "./OnlineServiceSection/OnlineServiceSection";
 import SupportSection from "./SupportSection/SupportSection";
 import MaintenanceSection from "./MaintenanceSection/MaintenanceSection";
 import MeasurementSection from "./MeasurementSection/MeasurementSection";
+import styles from "./Layout.module.css";
 
 const Layout: React.FC = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        width: "100%",
-        minHeight: "100vh",
-        backgroundColor: "#f6f9ff",
-        alignItems: "center",
-        padding: "20px 0",
-        gap: "20px",
-      }}
-    >
+    <div className={styles.layout}>
       <HeaderSection />
       <ServiceSection />
       <OnlineServiceSection />
