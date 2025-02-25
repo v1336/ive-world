@@ -1,5 +1,17 @@
 .serviceSection {
   display: flex;
+  flex-direction: column;
+  max-width: 670px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 14px 16px rgb(106, 139, 199);
+  z-index: 2;
+  padding: 20px;
+  gap: 16px;
+  
+  /* display: flex;
   max-width: 670px;
   height: auto;
   flex-grow: 1;
@@ -8,7 +20,7 @@
   padding: 20px;
   box-sizing: border-box;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .serviceContent {

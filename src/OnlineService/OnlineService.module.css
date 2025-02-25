@@ -1,36 +1,19 @@
-.online-service {
-  position: relative;
-  width: 335px;
-  min-height: 193px;
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 670px;
+  height: auto;
   overflow: hidden;
   border-radius: 20px;
   background-color: #ffffff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.background-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('https://dashboard.codeparrot.ai/api/image/Z7x9lYgrK1O5dGk-/union.png');
-  background-size: cover;
-  background-position: center;
-  z-index: 1;
-}
-
-.content-container {
-  position: relative;
+  box-shadow: 0 14px 16px rgb(106, 139, 199);
   z-index: 2;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
   gap: 16px;
 }
 
-.text-content {
-  max-width: 295px;
+.textContent {
+  max-width: 670px;
 }
 
 .title {
@@ -52,14 +35,14 @@
   margin: 0;
 }
 
-.bottom-section {
+.bottomSection {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   margin-top: auto;
 }
 
-.group-image {
+.groupImage {
   width: 102px;
   height: 86px;
   background-image: url('https://dashboard.codeparrot.ai/api/image/Z7x9lYgrK1O5dGk-/group-30.png');
@@ -67,7 +50,7 @@
   background-repeat: no-repeat;
 }
 
-.request-button {
+.requestButton {
   padding: 12px 20px;
   background-color: #0f366e;
   border-radius: 20px;
@@ -82,11 +65,11 @@
   transition: background-color 0.3s ease;
 }
 
-.request-button:hover {
+.requestButton:hover {
   background-color: #1a4b8f;
 }
 
-.request-button:active {
+.requestButton:active {
   background-color: #0a2854;
 }
 
