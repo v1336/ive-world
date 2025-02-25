@@ -1,0 +1,78 @@
+.support-section {
+  display: flex;
+  max-width: 670px;
+  height: auto;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: inherit;
+}
+
+.support-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.12px;
+  color: #000F7F;
+  margin: 0 0 20px 0;
+}
+
+.support-subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.08px;
+  color: #898989;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.support-phone {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.09px;
+  color: #010101;
+  margin: 0 0 20px 0;
+}
+
+.support-email {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.08px;
+  color: #010101;
+  margin: 10px 0;
+}
+
+.support-button {
+  width: 162px;
+  height: 44px;
+  background-color: #0F366E;
+  border-radius: 20px;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.07px;
+  cursor: pointer;
+  margin: 10px 0;
+  transition: background-color 0.2s ease;
+}
+
+.support-button:hover {
+  background-color: #1a4b94;
+}
+
+.support-button:active {
+  background-color: #0a2854;
+}
+
+@media (max-width: 320px) {
+  .support-section {
+    min-width: 280px;
+  }
+}
+
