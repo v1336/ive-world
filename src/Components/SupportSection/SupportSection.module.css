@@ -1,7 +1,7 @@
 .support {
   display: flex;
   flex-direction: row;
-  max-width: 670px;
+  max-width: 630px;
   height: auto;
 }
 
@@ -18,7 +18,7 @@
   gap: 16px;
 
   /* display: flex;
-  max-width: 670px;
+  max-width: 630px;
   height: auto;
   flex-grow: 1;
   flex-direction: column;

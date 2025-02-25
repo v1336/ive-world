@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 670px;
+  max-width: 630px;
   height: auto;
   overflow: hidden;
   border-radius: 20px;
@@ -12,7 +12,7 @@
   gap: 16px;
   
   /* display: flex;
-  max-width: 670px;
+  max-width: 630px;
   height: auto;
   flex-grow: 1;
   flex-direction: column;
@@ -32,8 +32,8 @@
 .title {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   font-size: 24px;
+  font-weight: 700;
   letter-spacing: 0.12px;
   color: #000F7F;
 }
@@ -41,14 +41,14 @@
 .description {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   letter-spacing: 0.08px;
   color: #898989;
   line-height: 1.5;
 }
 
-.requestButton {
+.button {
   align-self: flex-start;
   padding: 12px 20px;
   background-color: #0F366E;
@@ -56,18 +56,18 @@
   border-radius: 20px;
   color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
   font-size: 14px;
+  font-weight: 500;
   letter-spacing: 0.07px;
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
 
-.requestButton:hover {
+.button:hover {
   background-color: #1a4b94;
 }
 
-.requestButton:active {
-  background-color: #0a2854;
+.button:active {
+  background-color: #0a2851;
 }
 

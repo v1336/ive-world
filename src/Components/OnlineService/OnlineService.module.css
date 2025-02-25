@@ -1,7 +1,7 @@
 .contentContainer {
   display: flex;
   flex-direction: column;
-  max-width: 670px;
+  max-width: 630px;
   height: auto;
   overflow: hidden;
   border-radius: 20px;
@@ -13,7 +13,7 @@
 }
 
 .textContent {
-  max-width: 670px;
+  max-width: 630px;
 }
 
 .title {

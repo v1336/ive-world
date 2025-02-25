@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 670px;
+  box-shadow: 0 14px 16px rgb(106, 139, 199);
+  border-radius: 20px;
+}
+
+.imageContainer {
+  width: 100%;
+  max-width: 670px;
+  height: auto;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(246, 249, 255, 0.5);
+  border-radius: 40px;
+  padding: 8px 32px;
+  width: 100%;
+  max-width: 670px;
+}
+
+.title {
+  font-family: 'Roboto Flex', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 4.8px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #000f7f;
+  margin: 0;
+  text-align: center;
+}
+
+.titleContainer:hover {
+  background-color: rgba(246, 249, 255, 0.7);
+  transition: background-color 0.3s ease;
+}
