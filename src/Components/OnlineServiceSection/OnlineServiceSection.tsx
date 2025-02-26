@@ -14,16 +14,13 @@ const OnlineService: React.FC = () => {
           </p>
         </div>
       </div>
-      <div className={styles.section}>
-        <div className={styles.divSection}></div>
+      <div className={styles.footSection}>
+        <div className={styles.emptySection}></div>
+        <div className={styles.concaveSection}>
+          <div className={styles.rightConcaveSection}></div>
+        </div>
         <div className={styles.bottomSection}>
-          {/* <div className={styles.groupImage}></div> */}
-          <button
-            className={styles.requestButton}
-            onClick={() => console.log("Request button clicked")}
-          >
-            {"Оставить запрос"}
-          </button>
+          <button className={styles.requestButton}>{"Оставить запрос"}</button>
         </div>
       </div>
     </div>

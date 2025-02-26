@@ -4,19 +4,27 @@ import styles from "./MeasurementSection.module.css";
 const MeasurementSection: React.FC = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.contentWrapper}>
-        <h2 className={styles.title}>Проверка средств измерений</h2>
-        <p className={styles.description}>
-          Метрологическая служба нашей компании осуществляет поверку различных
-          средств измерений, обеспечивая высокую точность и надёжность.
-        </p>
+      <div className={styles.contentContainer}>
+        <div className={styles.textContent}>
+          <h1 className={styles.title}>{"Проверка средств измерений"}</h1>
+          <p className={styles.description}>
+            {
+              "Метрологическая служба нашей компании осуществляет поверку различных средств измерений, обеспечивая высокую точность и надёжность."
+            }
+          </p>
+        </div>
       </div>
-      <button
-        className={styles.button}
-        onClick={() => console.log("More info clicked")}
-      >
-        Подробная информация
-      </button>
+      <div className={styles.footSection}>
+        <div className={styles.emptySection}></div>
+        <div className={styles.concaveSection}>
+          <div className={styles.rightConcaveSection}></div>
+        </div>
+        <div className={styles.bottomSection}>
+          <button className={styles.requestButton}>
+            {"Подробная информация"}
+          </button>
+        </div>
+      </div>
     </div>
   );
 };
