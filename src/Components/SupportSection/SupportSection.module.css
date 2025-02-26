@@ -1,30 +1,37 @@
 .support {
   display: flex;
-  flex-direction: row;
-  max-width: 630px;
+  justify-content: center;
+  width: 100%;
   height: auto;
 }
 
-.supportSection {
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  overflow: hidden;
-  border-radius: 20px;
-  background-color: #ffffff;
-  box-shadow: 0 14px 16px rgb(106, 139, 199);
-  z-index: 2;
-  padding: 20px;
-  gap: 16px;
-
-  /* display: flex;
-  max-width: 630px;
-  height: auto;
+.subSupport {
+  max-width: 670px;
   flex-grow: 1;
-  flex-direction: column;
-  align-items: center;
+}
+
+.telNumber {
+  position: relative;
+}
+
+.subTelNumber {
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 14px 16px rgb(106, 139, 199);
   padding: 20px;
-  background-color: inherit; */
+}
+
+.eMail {
+  position: relative;
+}
+
+.subEmail {
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 14px 16px rgb(106, 139, 199);
+  padding: 40px;
 }
 
 .supportTitle {
@@ -34,6 +41,7 @@
   letter-spacing: 0.12px;
   color: #000F7F;
   margin: 0 0 20px 0;
+  text-align: center;
 }
 
 .supportSubtitle {
@@ -42,8 +50,8 @@
   font-size: 16px;
   letter-spacing: 0.08px;
   color: #898989;
-  text-align: center;
   margin: 0 0 10px 0;
+  text-align: center;
 }
 
 .supportPhone {
@@ -53,6 +61,7 @@
   letter-spacing: 0.09px;
   color: #010101;
   margin: 0 0 20px 0;
+  text-align: center;
 }
 
 .supportEmail {
@@ -62,6 +71,39 @@
   letter-spacing: 0.08px;
   color: #010101;
   margin: 10px 0;
+  text-align: center;
+}
+
+.telButton {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.telButtonBackground {
+  width: auto;
+  height: auto;
+  padding: 3px 10px 3px 10px;
+  border-radius: 30px;
+  background-color: #7c99ce;
+}
+
+.emailButton {
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.emailButtonBackground {
+  width: auto;
+  height: auto;
+  padding: 3px 10px 3px 10px;
+  border-radius: 30px;
+  background-color: #7c99ce;
 }
 
 .supportButton {

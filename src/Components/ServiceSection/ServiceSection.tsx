@@ -21,12 +21,17 @@ const ServiceSection: React.FC = () => {
               alt="App Store"
             />
           </button>
-          <button className={styles.downloadButton}>
-            <img
-              src="https://dashboard.codeparrot.ai/api/image/Z71RwN7fh_NXd_dK/frame-2.png"
-              alt="Play Store"
-            />
-          </button>
+          <a
+            href="https://apps.apple.com/ru/app/ive-50/id6737914396"
+            target={"_blank"}
+          >
+            <button className={styles.downloadButton}>
+              <img
+                src="https://dashboard.codeparrot.ai/api/image/Z71RwN7fh_NXd_dK/frame-2.png"
+                alt="Play Store"
+              />
+            </button>
+          </a>
         </div>
       </div>
     </div>
