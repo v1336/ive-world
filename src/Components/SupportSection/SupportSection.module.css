@@ -76,7 +76,7 @@
 
 .telButton {
   position: absolute;
-  bottom: -40px;
+  bottom: -45px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
@@ -87,7 +87,7 @@
   height: auto;
   padding: 3px 10px 3px 10px;
   border-radius: 30px;
-  background-color: #7c99ce;
+  background-color: #f6f9ff;
 }
 
 .emailButton {
@@ -103,7 +103,7 @@
   height: auto;
   padding: 3px 10px 3px 10px;
   border-radius: 30px;
-  background-color: #7c99ce;
+  background-color: #f6f9ff;
 }
 
 .supportButton {
