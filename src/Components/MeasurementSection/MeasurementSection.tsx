@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./MeasurementSection.module.css";
+import find from "../../Images/find.png";
 
 const MeasurementSection: React.FC = () => {
   return (
@@ -29,6 +30,9 @@ const MeasurementSection: React.FC = () => {
             </button>
           </a>
         </div>
+      </div>
+      <div className={styles.imageContainer}>
+        <img src={find} className={styles.backgroundImage} />
       </div>
     </div>
   );

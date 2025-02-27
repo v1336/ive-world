@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./OnlineServiceSection.module.css";
+import sim from "../../Images/sim.png";
 
 const OnlineService: React.FC = () => {
   return (
@@ -27,6 +28,9 @@ const OnlineService: React.FC = () => {
             {"Оставить запрос"}
           </button>
         </div>
+      </div>
+      <div className={styles.imageContainer}>
+        <img src={sim} className={styles.backgroundImage} />
       </div>
     </div>
   );

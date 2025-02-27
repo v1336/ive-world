@@ -129,3 +129,25 @@
 .supportButton:active {
   background-color: #0a2854;
 }
+
+.phoneImageContainer {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+}
+
+.phoneBackgroundImage {
+  width: 90px;
+  opacity: 0.2;
+}
+
+.emailImageContainer {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.emailBackgroundImage {
+  width: 90px;
+  opacity: 0.2;
+}

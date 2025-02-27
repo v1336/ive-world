@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./SupportSection.module.css";
+import phone from "../../Images/phone.png";
+import email from "../../Images/email.png";
 
 const SupportSection: React.FC = () => {
   return (
@@ -23,6 +25,9 @@ const SupportSection: React.FC = () => {
               </button>
             </div>
           </div>
+          <div className={styles.phoneImageContainer}>
+            <img src={phone} className={styles.phoneBackgroundImage} />
+          </div>
         </div>
         <div className={styles.eMail}>
           <div className={styles.subEmail}>
@@ -38,6 +43,9 @@ const SupportSection: React.FC = () => {
                 {"Написать"}
               </button>
             </div>
+          </div>
+          <div className={styles.emailImageContainer}>
+            <img src={email} className={styles.emailBackgroundImage} />
           </div>
         </div>
       </div>
