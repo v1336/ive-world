@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./ServiceSection.module.css";
+import nashstore from "../../Images/NASHStore.png";
+import appstore from "../../Images/AppStore.png";
 
 const ServiceSection: React.FC = () => {
   return (
@@ -15,20 +17,23 @@ const ServiceSection: React.FC = () => {
 
         <div className={styles.downloadSection}>
           <p className={styles.downloadTitle}>Доступно для скачивания в:</p>
-          <button className={styles.downloadButton}>
+          <button className={styles.requestButton}>
             <img
-              src="https://dashboard.codeparrot.ai/api/image/Z71RwN7fh_NXd_dK/frame-1.png"
+              src={nashstore}
               alt="App Store"
+              style={{ height: "56px", marginTop: "-12px" }}
             />
           </button>
           <a
             href="https://apps.apple.com/ru/app/ive-50/id6737914396"
             target={"_blank"}
+            style={{ width: "100%" }}
           >
-            <button className={styles.downloadButton}>
+            <button className={styles.requestButton}>
               <img
-                src="https://dashboard.codeparrot.ai/api/image/Z71RwN7fh_NXd_dK/frame-2.png"
+                src={appstore}
                 alt="Play Store"
+                style={{ height: "56px", marginTop: "-12px" }}
               />
             </button>
           </a>

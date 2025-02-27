@@ -10,17 +10,6 @@
   z-index: 2;
   padding: 20px;
   gap: 16px;
-  
-  /* display: flex;
-  max-width: 630px;
-  height: auto;
-  flex-grow: 1;
-  background-color: #f6f9ff;
-  border-radius: 28px;
-  padding: 20px;
-  box-sizing: border-box;
-  justify-content: center;
-  align-items: center; */
 }
 
 .serviceContent {
@@ -59,6 +48,7 @@
 .downloadSection {
   display: flex;
   flex-direction: column;
+  max-width: 630px;
   gap: 20px;
   align-items: center;
 }
@@ -74,7 +64,7 @@
   width: 100%;
 }
 
-.downloadButton {
+/* .downloadButton {
   width: 100%;
   max-width: 295px;
   padding: 0;
@@ -82,6 +72,23 @@
   background: none;
   cursor: pointer;
   transition: transform 0.2s ease;
+} */
+
+.requestButton {
+  width: 100%;
+  height: 56px;
+  flex-grow: 1;
+  padding: 12px 20px;
+  background-color: #0f366e;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.07px;
+  line-height: 120%;
+  color: #f9f9f9;
 }
 
 .downloadButton:hover {

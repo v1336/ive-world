@@ -16,9 +16,14 @@ const MaintenanceSection: React.FC = () => {
       </div>
       <div className={styles.footSection}>
         <div className={styles.bottomSection}>
-          <button className={styles.requestButton}>
-            {"Подробная информация"}
-          </button>
+          <a
+            href="https://v-1336.ru/services/obsluzhivanie-i-remont"
+            target={"_blank"}
+          >
+            <button className={styles.requestButton}>
+              {"Подробная информация"}
+            </button>
+          </a>
         </div>
         <div className={styles.emptySection}></div>
         <div className={styles.concaveSection}>

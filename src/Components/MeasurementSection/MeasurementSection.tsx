@@ -20,9 +20,14 @@ const MeasurementSection: React.FC = () => {
           <div className={styles.rightConcaveSection}></div>
         </div>
         <div className={styles.bottomSection}>
-          <button className={styles.requestButton}>
-            {"Подробная информация"}
-          </button>
+          <a
+            href="https://v-1336.ru/services/poverka-sredstv-izmereniy"
+            target={"_blank"}
+          >
+            <button className={styles.requestButton}>
+              {"Подробная информация"}
+            </button>
+          </a>
         </div>
       </div>
     </div>
