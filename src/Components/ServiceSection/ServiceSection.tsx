@@ -8,15 +8,16 @@ const ServiceSection: React.FC = () => {
     <div className={styles.serviceSection}>
       <div className={styles.serviceContent}>
         <div className={styles.serviceHeader}>
-          <h2 className={styles.serviceTitle}>IVE50Service</h2>
+          <h2 className={styles.serviceTitle}>{"IVE50Service"}</h2>
           <p className={styles.serviceDescription}>
-            Наше простое и удобное приложение для работы с программно-аппаратным
-            комплексом ИВЭ-50
+            {
+              "Наше простое и удобное приложение для работы с программно-аппаратным комплексом ИВЭ-50"
+            }
           </p>
         </div>
 
         <div className={styles.downloadSection}>
-          <p className={styles.downloadTitle}>Доступно для скачивания в:</p>
+          <p className={styles.downloadTitle}>{"Доступно для скачивания в:"}</p>
           <button className={styles.requestButton}>
             <img
               src={nashstore}

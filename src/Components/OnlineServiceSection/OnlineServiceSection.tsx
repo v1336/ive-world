@@ -20,7 +20,12 @@ const OnlineService: React.FC = () => {
           <div className={styles.rightConcaveSection}></div>
         </div>
         <div className={styles.bottomSection}>
-          <button className={styles.requestButton}>{"Оставить запрос"}</button>
+          <button
+            className={styles.requestButton}
+            onClick={() => (window.location.href = "mailto:sale@ivelabs.ru")}
+          >
+            {"Оставить запрос"}
+          </button>
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ const MeasurementSection: React.FC = () => {
     <div className={styles.container}>
       <div className={styles.contentContainer}>
         <div className={styles.textContent}>
-          <h1 className={styles.title}>{"Проверка средств измерений"}</h1>
+          <h1 className={styles.title}>{"Поверка средств измерений"}</h1>
           <p className={styles.description}>
             {
               "Метрологическая служба нашей компании осуществляет поверку различных средств измерений, обеспечивая высокую точность и надёжность."
