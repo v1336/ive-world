@@ -65,9 +65,13 @@
   height: 50px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background: 
-  linear-gradient(180deg, #7c99ce, #f6f9ff),
-  linear-gradient(0deg, #7c99ce, #f6f9ff);
+  /* background: radial-gradient(circle, #f6f9ff 0%, #7291ca 100%); */
+  /* background: 
+  linear-gradient(180deg, #7291ca, #f6f9ff),
+  linear-gradient(0deg, #7291ca, #f6f9ff),
+  linear-gradient(160deg, #7291ca, #f6f9ff); */
+  background: linear-gradient(180deg, #7291ca, #f6f9ff),
+  radial-gradient(circle, #f6f9ff 0%, #7291ca 100%); 
 }
 
 .bottomSection {
