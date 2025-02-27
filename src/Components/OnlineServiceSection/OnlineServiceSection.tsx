@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./OnlineServiceSection.module.css";
 import sim from "../../Images/sim.png";
+import left from "../../Images/left.png";
 
 const OnlineService: React.FC = () => {
   return (
@@ -18,7 +19,7 @@ const OnlineService: React.FC = () => {
       <div className={styles.footSection}>
         <div className={styles.emptySection}></div>
         <div className={styles.concaveSection}>
-          <div className={styles.rightConcaveSection}></div>
+          <img src={left} className={styles.concaveImage} />
         </div>
         <div className={styles.bottomSection}>
           <button

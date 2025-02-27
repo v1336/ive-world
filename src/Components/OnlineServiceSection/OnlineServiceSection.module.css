@@ -50,6 +50,7 @@
 }
 
 .footSection {
+  position: relative;
   width: 100%;
   height: auto;
 }
@@ -62,6 +63,7 @@
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   box-shadow: 0 14px 16px rgb(106, 139, 199);
+  z-index: 2;
 }
 
 .concaveSection {
@@ -69,21 +71,12 @@
   width: 50px;
   height: 50px;
   background-color: #ffffff;
-  border-bottom-left-radius: 20px;
+  z-index: 0;
 }
 
-.rightConcaveSection {
-  width: 50px;
-  height: 50px;
+.concaveImage {
   border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  /* background: radial-gradient(circle, #f6f9ff 0%, #7291ca 100%); */
-  /* background: 
-  linear-gradient(180deg, #7291ca, #f6f9ff),
-  linear-gradient(0deg, #7291ca, #f6f9ff),
-  linear-gradient(160deg, #7291ca, #f6f9ff); */
-  background: linear-gradient(180deg, #7291ca, #f6f9ff),
-  radial-gradient(circle, #f6f9ff 0%, #7291ca 100%); 
+  background-color: #ffffff;
 }
 
 .bottomSection {

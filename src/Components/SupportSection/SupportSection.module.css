@@ -87,7 +87,7 @@
   height: auto;
   padding: 3px 10px 3px 10px;
   border-radius: 30px;
-  background: linear-gradient(180deg, #7291ca 42%, #f6f9ff 70%);
+  background: linear-gradient(180deg, #7291ca 37%, #f6f9ff 65%);
 }
 
 .emailButton {
@@ -103,7 +103,7 @@
   height: auto;
   padding: 3px 10px 3px 10px;
   border-radius: 30px;
-  background: linear-gradient(180deg, #7291ca 52%, #f6f9ff 88%);
+  background: linear-gradient(180deg, #7291ca 50%, #f6f9ff 80%);
 }
 
 .supportButton {

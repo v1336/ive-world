@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./MeasurementSection.module.css";
 import find from "../../Images/find.png";
+import left from "../../Images/left.png";
 
 const MeasurementSection: React.FC = () => {
   return (
@@ -18,7 +19,7 @@ const MeasurementSection: React.FC = () => {
       <div className={styles.footSection}>
         <div className={styles.emptySection}></div>
         <div className={styles.concaveSection}>
-          <div className={styles.rightConcaveSection}></div>
+          <img src={left} className={styles.concaveImage} />
         </div>
         <div className={styles.bottomSection}>
           <a

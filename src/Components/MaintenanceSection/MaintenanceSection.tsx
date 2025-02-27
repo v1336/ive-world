@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./MaintenanceSection.module.css";
 import settings from "../../Images/settings.png";
+import right from "../../Images/right.png";
 
 const MaintenanceSection: React.FC = () => {
   return (
@@ -28,7 +29,7 @@ const MaintenanceSection: React.FC = () => {
         </div>
         <div className={styles.emptySection}></div>
         <div className={styles.concaveSection}>
-          <div className={styles.rightConcaveSection}></div>
+          <img src={right} className={styles.concaveImage} />
         </div>
       </div>
       <div className={styles.imageContainer}>
