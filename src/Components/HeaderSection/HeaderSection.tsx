@@ -7,9 +7,9 @@ const HeaderSection: React.FC = () => {
     <div className={styles.container}>
       <div className={styles.imageContainer}>
         <img src={mainLogo} className={styles.backgroundImage} />
-        {/* <div className={styles.titleContainer}>
+        <div className={styles.titleContainer}>
           <h1 className={styles.title}>Мир ИВЭ</h1>
-        </div> */}
+        </div>
       </div>
     </div>
   );
