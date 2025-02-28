@@ -11,7 +11,7 @@ const OnlineService: React.FC = () => {
           <h1 className={styles.title}>{"Услуга онлайн"}</h1>
           <p className={styles.description}>
             {
-              "Оставьте свой запрос на сайте www.ivelabs.ru, и наш специалист свяжется с вами в кратчайшие сроки!"
+              "Напишите свой запрос на почту sale@ivelabs.ru, и наш специалист свяжется с вами в кратчайшие сроки!"
             }
           </p>
         </div>
