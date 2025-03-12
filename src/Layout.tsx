@@ -29,7 +29,7 @@ const Layout: React.FC = () => {
   const buttonClick = (value: number) => {
     setTimeout(() => {
       new Notification("Enabling notifications");
-    }, value);
+    }, value * 1000);
   };
 
   return (
@@ -47,7 +47,7 @@ const Layout: React.FC = () => {
         value={userTimer}
         name="quantity"
         min="0"
-        max="999999"
+        max="999"
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         onChange={(e: any) => {
           setUserTimer(Number(e.target.value));
