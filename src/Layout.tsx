@@ -38,6 +38,7 @@ const Layout: React.FC = () => {
       <input
         type="number"
         value={userTimer}
+        name="userTimer"
         min="0"
         max="999"
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
