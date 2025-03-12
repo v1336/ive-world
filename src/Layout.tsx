@@ -28,7 +28,7 @@ const Layout: React.FC = () => {
 
   const buttonClick = (value: number) => {
     setTimeout(() => {
-      new Notification("notifications sended");
+      new Notification("notification sended");
     }, value * 1000);
   };
 
