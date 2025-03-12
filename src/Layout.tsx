@@ -11,11 +11,11 @@ function notifyUser() {
   if (!("Notification" in window)) {
     alert("This browser does not support desktop notification");
   } else if (Notification.permission === "granted") {
-    new Notification("Hi there!");
+    new Notification("granted");
   } else if (Notification.permission !== "denied") {
     Notification.requestPermission().then((permission) => {
       if (permission === "granted") {
-        new Notification("Hi there!");
+        new Notification("granted");
       }
     });
   }
@@ -28,7 +28,7 @@ const Layout: React.FC = () => {
 
   const buttonClick = (value: number) => {
     setTimeout(() => {
-      new Notification("Enabling notifications");
+      new Notification("notifications sended");
     }, value * 1000);
   };
 
@@ -40,7 +40,7 @@ const Layout: React.FC = () => {
         }}
         className="button"
       >
-        notifications
+        send notification
       </button>
       <input
         type="number"
@@ -52,7 +52,9 @@ const Layout: React.FC = () => {
         onChange={(e: any) => {
           setUserTimer(Number(e.target.value));
         }}
-      ></input>
+      >
+        timeout in seconds
+      </input>
       <HeaderSection />
       <ServiceSection />
       <OnlineServiceSection />
