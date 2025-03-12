@@ -11,11 +11,11 @@ function notifyUser() {
   if (!("Notification" in window)) {
     alert("This browser does not support desktop notification");
   } else if (Notification.permission === "granted") {
-    new Notification("granted");
+    // new Notification("granted");
   } else if (Notification.permission !== "denied") {
     Notification.requestPermission().then((permission) => {
       if (permission === "granted") {
-        new Notification("granted");
+        // new Notification("granted");
       }
     });
   }
@@ -34,6 +34,17 @@ const Layout: React.FC = () => {
 
   return (
     <div className={styles.layout}>
+      <span> {"timeout in seconds"}</span>
+      <input
+        type="number"
+        value={userTimer}
+        min="0"
+        max="999"
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        onChange={(e: any) => {
+          setUserTimer(Number(e.target.value));
+        }}
+      ></input>
       <button
         onClick={() => {
           buttonClick(userTimer);
@@ -42,19 +53,6 @@ const Layout: React.FC = () => {
       >
         send notification
       </button>
-      <input
-        type="number"
-        value={userTimer}
-        name="quantity"
-        min="0"
-        max="999"
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        onChange={(e: any) => {
-          setUserTimer(Number(e.target.value));
-        }}
-      >
-        timeout in seconds
-      </input>
       <HeaderSection />
       <ServiceSection />
       <OnlineServiceSection />
