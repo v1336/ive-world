@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./ServiceSection.module.css";
-import nashstore from "../../Images/NASHStore.png";
+// import nashstore from "../../Images/NASHStore.png";
 import appstore from "../../Images/AppStore.png";
+import rustore from "../../Images/RUStore.png";
 
 const ServiceSection: React.FC = () => {
   return (
@@ -18,13 +19,19 @@ const ServiceSection: React.FC = () => {
 
         <div className={styles.downloadSection}>
           <p className={styles.downloadTitle}>{"Доступно для скачивания в:"}</p>
-          <button className={styles.requestButton}>
-            <img
-              src={nashstore}
-              alt="App Store"
-              style={{ height: "56px", marginTop: "-12px" }}
-            />
-          </button>
+          <a
+            href="https://www.rustore.ru/catalog/app/com.ivelabs.ive50"
+            target={"_blank"}
+            style={{ width: "100%" }}
+          >
+            <button className={styles.requestButton}>
+              <img
+                src={rustore}
+                alt="Ru Store"
+                style={{ height: "56px", marginTop: "-12px" }}
+              />
+            </button>
+          </a>
           <a
             href="https://apps.apple.com/ru/app/ive-50/id6737914396"
             target={"_blank"}
@@ -38,6 +45,13 @@ const ServiceSection: React.FC = () => {
               />
             </button>
           </a>
+          {/* <button className={styles.requestButton}>
+            <img
+              src={nashstore}
+              alt="App Store"
+              style={{ height: "56px", marginTop: "-12px" }}
+            />
+          </button> */}
         </div>
       </div>
     </div>

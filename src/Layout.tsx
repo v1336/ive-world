@@ -7,34 +7,34 @@ import MaintenanceSection from "./Components/MaintenanceSection/MaintenanceSecti
 import MeasurementSection from "./Components/MeasurementSection/MeasurementSection";
 import styles from "./Layout.module.css";
 
-function notifyUser() {
-  if (!("Notification" in window)) {
-    alert("This browser does not support desktop notification");
-  } else if (Notification.permission === "granted") {
-    // new Notification("granted");
-  } else if (Notification.permission !== "denied") {
-    Notification.requestPermission().then((permission) => {
-      if (permission === "granted") {
-        // new Notification("granted");
-      }
-    });
-  }
-}
+// function notifyUser() {
+//   if (!("Notification" in window)) {
+//     alert("This browser does not support desktop notification");
+//   } else if (Notification.permission === "granted") {
+//     // new Notification("granted");
+//   } else if (Notification.permission !== "denied") {
+//     Notification.requestPermission().then((permission) => {
+//       if (permission === "granted") {
+//         // new Notification("granted");
+//       }
+//     });
+//   }
+// }
 
 const Layout: React.FC = () => {
-  notifyUser();
+  // notifyUser();
 
-  const [userTimer, setUserTimer] = useState<number>(0);
+  // const [userTimer, setUserTimer] = useState<number>(0);
 
-  const buttonClick = (value: number) => {
-    setTimeout(() => {
-      new Notification("notification sended");
-    }, value * 1000);
-  };
+  // const buttonClick = (value: number) => {
+  //   setTimeout(() => {
+  //     new Notification("notification sended");
+  //   }, value * 1000);
+  // };
 
   return (
     <div className={styles.layout}>
-      <span> {"timeout in seconds"}</span>
+      {/* <span> {"timeout in seconds"}</span>
       <input
         type="number"
         value={userTimer}
@@ -53,7 +53,7 @@ const Layout: React.FC = () => {
         className="button"
       >
         send notification
-      </button>
+      </button> */}
       <HeaderSection />
       <ServiceSection />
       <OnlineServiceSection />
